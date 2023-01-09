@@ -40,7 +40,7 @@
 				<th>Nama Alternatif</th>
 				<th>Alamat</th>
 				<th>Tanggal</th>
-				<th width="25%">Total Nilai</th>
+				<th width="25%">Keputusan</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -54,7 +54,15 @@
 					<td><?= $alt[$key]['nama'] ?></td>
 					<td><?= $alt[$key]['alamat'] ?></td>
 					<td><?= $alt[$key]['tanggal'] ?></td>
-					<td><?= $electre->total[$key] ?></td>
+					<td>
+						<?php
+						if ($electre->total[$key] === 0) {
+							echo 'Layak Huni';
+						} else {
+							echo 'Tidak Layak Huni';
+						}
+						?>
+					</td>
 				</tr>
 			<?php
 				$no++;

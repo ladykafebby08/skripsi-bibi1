@@ -36,7 +36,7 @@
    <div id="wrapper">
 
      <!-- Sidebar -->
-     <ul class="navbar-nav  sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color:#395B64 ; min-width: 300px;">
+     <ul class="navbar-nav  sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color:#395B64 ; width: 300px;">
 
        <!-- Sidebar - Brand -->
        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('Login/home'); ?>">

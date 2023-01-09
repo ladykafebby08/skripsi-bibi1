@@ -82,11 +82,7 @@
                                             <input required autocomplete="off" type="password" class="form-control form-control-user" id="exampleInputPassword" name="password" placeholder="Password" />
                                         </div>
 
-                                        <div style="display: flex;">
 
-                                            <input type="checkbox" name="User[]" value="User"> User <br>
-                                            <input style="margin-left: 25px;" type="checkbox" name="Admin[]" value="Admin"> Admin <br>
-                                        </div>
 
                                         <button name="submit" type="submit" class="btn  btn-user btn-block" style="background-color:#FFD56F ; margin-top: 10px;"><i class="fas fa-fw fa-sign-in-alt mr-1"></i> Masuk</button>
                                     </form>
