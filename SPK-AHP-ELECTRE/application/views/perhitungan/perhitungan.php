@@ -48,13 +48,13 @@
 
 	<div class="card-body">
 		<div class="table-responsive">
-			<table class="table table-bordered" width="100%" cellspacing="0">
+			<table class="table table-bordered" width="100%" cellspacing="0" style="table-layout: fixed;">
 				<thead class="bg-warning text-white">
 					<tr align="center">
-						<th width="5%">No</th>
-						<th>Nama Alternatif</th>
+						<th width="8.3%">No</th>
+						<th width="8.3%">Nama Alternatif</th>
 						<?php foreach ($electre->kriteria as $key => $val) : ?>
-							<th width="13%"><?= $krt[$key]['keterangan'] ?></th>
+							<th width="8.3%"><?= $krt[$key]['keterangan'] ?></th>
 						<?php endforeach ?>
 					</tr>
 				</thead>
@@ -86,13 +86,13 @@
 
 	<div class="card-body">
 		<div class="table-responsive">
-			<table class="table table-bordered" width="100%" cellspacing="0">
+			<table class="table table-bordered" width="100%" cellspacing="0" style="table-layout: fixed;">
 				<thead class="bg-warning text-white">
 					<tr align="center">
-						<th width="5%">No</th>
-						<th>Nama Alternatif</th>
+						<th width="8.3%">No</th>
+						<th width="8.3%">Nama Alternatif</th>
 						<?php foreach ($electre->kriteria as $key => $val) : ?>
-							<th width="13%"><?= $krt[$key]['keterangan'] ?></th>
+							<th width="8.3%"><?= $krt[$key]['keterangan'] ?></th>
 						<?php endforeach ?>
 					</tr>
 				</thead>
@@ -124,14 +124,14 @@
 
 	<div class="card-body">
 		<div class="table-responsive">
-			<table class="table table-bordered" width="100%" cellspacing="0">
+			<table class="table table-bordered" width="100%" cellspacing="0" style="table-layout: fixed;">
 				<thead class="bg-warning text-white">
 					<tr align="center">
-						<th width="5%">No</th>
-						<th>Nama Alternatif</th>
-						<?php foreach ($electre->kriteria as $key => $val) : ?>
-							<th width="13%"><?= $krt[$key]['keterangan'] ?></th>
-						<?php endforeach ?>
+						<th width="8.3%">No</th>
+						<th width="8.3%" Nama Alternatif</th>
+							<?php foreach ($electre->kriteria as $key => $val) : ?>
+						<th width="8.3%"><?= $krt[$key]['keterangan'] ?></th>
+					<?php endforeach ?>
 					</tr>
 				</thead>
 				<tbody>
@@ -163,13 +163,13 @@
 
 	<div class="card-body">
 		<div class="table-responsive">
-			<table class="table table-bordered" width="100%" cellspacing="0">
+			<table class="table table-bordered" width="100%" cellspacing="0" style="table-layout: fixed;">
 				<thead class="bg-warning text-white">
 					<tr align="center">
-						<th width="5%">No</th>
-						<th>Nama Alternatif</th>
+						<th width="8.3%">No</th>
+						<th width="8.3%">Nama Alternatif</th>
 						<?php foreach ($electre->concordance as $key => $val) : ?>
-							<th width="13%"><?= $alt[$key] ?></th>
+							<th width="8.3%"><?= $alt[$key] ?></th>
 						<?php endforeach ?>
 
 					</tr>
@@ -193,7 +193,7 @@
 		</div>
 	</div>
 </div>
-
+z
 
 <div class="card shadow mb-4">
 	<!-- /.card-header -->
@@ -202,14 +202,14 @@
 	</div>
 
 	<div class="card-body">
-		<div class="table-responsive">
-			<table class="table table-bordered" width="100%" cellspacing="0">
+		<div>
+			<table class="table table-bordered" width="100%" cellspacing="0" style="table-layout: fixed;">
 				<thead class="bg-warning text-white">
 					<tr align="center">
-						<th width="5%">No</th>
-						<th>Nama Alternatif</th>
+						<th width="8.3%">No</th>
+						<th width="8.3%">Nama Alternatif</th>
 						<?php foreach ($electre->discordance as $key => $val) : ?>
-							<th width="13%"><?= $alt[$key] ?></th>
+							<th width="8.3%"><?= $alt[$key] ?></th>
 						<?php endforeach ?>
 
 					</tr>
@@ -243,13 +243,13 @@
 
 	<div class="card-body">
 		<div class="table-responsive">
-			<table class="table table-bordered" width="100%" cellspacing="0">
+			<table class="table table-bordered" width="100%" cellspacing="0" style="table-layout: fixed;">
 				<thead class="bg-warning text-white">
 					<tr align="center">
-						<th width="5%">No</th>
-						<th>Nama Alternatif</th>
+						<th width="8.3%">No</th>
+						<th width="8.3%">Nama Alternatif</th>
 						<?php foreach ($electre->m_concordance as $key => $val) : ?>
-							<th width="13%"><?= $alt[$key] ?></th>
+							<th width="8.3%"><?= $alt[$key] ?></th>
 						<?php endforeach ?>
 
 					</tr>
@@ -282,14 +282,14 @@
 	</div>
 
 	<div class="card-body">
-		<div class="table-responsive">
-			<table class="table table-bordered" width="100%" cellspacing="0">
+		<div>
+			<table class="table table-bordered" width="100%" cellspacing="0" style="table-layout: fixed;">
 				<thead class="bg-warning text-white">
 					<tr align="center">
-						<th width="5%">No</th>
-						<th>Nama Alternatif</th>
+						<th width="8.3%">No</th>
+						<th width="8.3%">Nama Alternatif</th>
 						<?php foreach ($electre->m_discordance as $key => $val) : ?>
-							<th><?= $alt[$key] ?></th>
+							<th width="8.3%"><?= $alt[$key] ?></th>
 						<?php endforeach ?>
 					</tr>
 				</thead>
@@ -322,13 +322,13 @@
 
 	<div class="card-body">
 		<div class="table-responsive">
-			<table class="table table-bordered" width="100%" cellspacing="0">
+			<table class="table table-bordered" width="100%" cellspacing="0" style="table-layout: fixed;">
 				<thead class="bg-warning text-white">
 					<tr align="center">
-						<th width="5%">No</th>
-						<th>Nama Alternatif</th>
+						<th width="8.3%">No</th>
+						<th width="8.3%">Nama Alternatif</th>
 						<?php foreach ($electre->md_concordance as $key => $val) : ?>
-							<th><?= $alt[$key] ?></th>
+							<th width="8.3%"><?= $alt[$key] ?></th>
 						<?php endforeach ?>
 					</tr>
 				</thead>
@@ -336,7 +336,7 @@
 					<?php
 					$no = 1;
 					foreach ($electre->md_concordance as $key => $val) : ?>
-						<tr align="center">
+						<tr align=" center">
 							<td><?= $no ?></td>
 							<td><?= $alt[$key] ?></td>
 							<?php foreach ($val as $k => $v) : ?>
@@ -360,13 +360,13 @@
 
 	<div class="card-body">
 		<div class="table-responsive">
-			<table class="table table-bordered" width="100%" cellspacing="0">
+			<table class="table table-bordered" width="100%" cellspacing="0" style="table-layout: fixed;">
 				<thead class="bg-warning text-white">
 					<tr align="center">
-						<th width="5%">No</th>
-						<th>Nama Alternatif</th>
+						<th width="8.3%">No</th>
+						<th width="8.3%">Nama Alternatif</th>
 						<?php foreach ($electre->md_discordance as $key => $val) : ?>
-							<th><?= $alt[$key] ?></th>
+							<th width="8.3%"><?= $alt[$key] ?></th>
 						<?php endforeach ?>
 					</tr>
 				</thead>
@@ -398,13 +398,13 @@
 
 	<div class="card-body">
 		<div class="table-responsive">
-			<table class="table table-bordered" width="100%" cellspacing="0">
+			<table class="table table-bordered" width="100%" cellspacing="0" style="table-layout: fixed;">
 				<thead class="bg-warning text-white">
 					<tr align="center">
-						<th width="5%">No</th>
-						<th>Nama Alternatif</th>
+						<th width="8.3%">No</th>
+						<th width="8.3%">Nama Alternatif</th>
 						<?php foreach ($electre->agregate as $key => $val) : ?>
-							<th><?= $alt[$key] ?></th>
+							<th width="8.3%"><?= $alt[$key] ?></th>
 						<?php endforeach ?>
 					</tr>
 				</thead>
