@@ -62,7 +62,7 @@
 													<select name="nilai[]" class="form-control" id="<?= $key->id_kriteria ?>" required>
 														<option value="">--Pilih--</option>
 														<?php foreach ($sub_kriteria as $subs_kriteria) : ?>
-															<option value="<?= $subs_kriteria['id_sub_kriteria'] ?>"><?= $subs_kriteria['deskripsi'] ?> </option>
+															<option value="<?= $subs_kriteria['id_sub_kriteria'] ?>"><?= $subs_kriteria['deskripsi'] . " ( " .  $subs_kriteria['nilai'] . " )" ?> </option>
 														<?php endforeach ?>
 													</select>
 												</div>
