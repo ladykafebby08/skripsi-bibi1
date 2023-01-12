@@ -128,10 +128,10 @@
 				<thead class="bg-warning text-white">
 					<tr align="center">
 						<th width="8.3%">No</th>
-						<th width="8.3%" Nama Alternatif</th>
-							<?php foreach ($electre->kriteria as $key => $val) : ?>
-						<th width="8.3%"><?= $krt[$key]['keterangan'] ?></th>
-					<?php endforeach ?>
+						<th width="8.3%"> Nama Alternatif</th>
+						<?php foreach ($electre->kriteria as $key => $val) : ?>
+							<th width="8.3%"><?= $krt[$key]['keterangan'] ?></th>
+						<?php endforeach ?>
 					</tr>
 				</thead>
 				<tbody>
